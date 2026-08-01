@@ -1,0 +1,8 @@
+services:
+  api:
+    build: .
+    ports:
+      - "5000:8080"
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__OracleDb: "User Id=AUTOS;Password=V1904CPSAUTOS;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=V55001-1.vegusa.com)(PORT=1521))(CONNECT_DATA=(SERVER=dedicated)(SERVICE_NAME=SISTEMAS)));"

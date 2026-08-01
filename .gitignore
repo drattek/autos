@@ -1,0 +1,20 @@
+## .NET / Visual Studio
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.log
+*.tmp
+*.db
+*.sqlite
+
+## Build outputs
+TestResults/
+packages/
+
+## Local environment / secrets
+appsettings.Development.json
+secrets.json
