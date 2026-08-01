@@ -1,0 +1,6 @@
+@ApiOracleVeguDemo_HostAddress = http://localhost:5222
+
+GET {{ApiOracleVeguDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
